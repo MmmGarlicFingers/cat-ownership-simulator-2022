@@ -1,0 +1,352 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: linen;
+}
+* {
+  image-rendering: pixelated;
+}
+button {
+  margin: 1%;
+  background-color: #AA0096;
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 9px #490041;
+  transform: translateY(-9px);
+  cursor: pointer;
+}
+button:active {
+  background-color: #770069;
+  color: #ADADAD;
+  box-shadow: 0 5px #280024;
+  transform: translateY(-5px);
+}
+button:disabled {
+  background-color: #770069;
+  color: #ADADAD;
+  box-shadow: 0 5px #280024;
+  transform: translateY(-5px);
+  cursor: not-allowed;
+}
+button:hover {
+
+}
+
+#site-header {
+  background-color: #A4A57D;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 4;
+}
+#title {
+  color: rebeccapurple;
+  text-shadow: 2px 2px 0px black;
+  transition-duration: 0.5s;
+  width: 45%;
+  text-align: center;
+}
+#title:hover {
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 0px 30px yellow, 0px 0px 10px lightyellow;
+  letter-spacing: 5px;
+}
+.counter {
+  margin:1%;
+  background-color: #896664;
+  padding: 5px;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: inset 5px #684D4C;
+  transition-duration: 0.5s;
+}
+.alert {
+  color: darkred;
+  background-color: black;
+}
+#cat-shop {
+  background-color: burlywood;
+  margin: 1%;
+  padding: 0px;
+  width: 40%;
+  top: 147px;
+  left: 192px;
+  border: 0px burlywood outset;
+  transition-duration: 0.2s;
+  position: absolute;
+  z-index: 3;
+}
+.cat-shop-open {
+  padding: 9px;
+  top: 80px;
+}
+#bumper-top {
+  padding: 40px;
+}
+
+
+.container {
+  display: inline-flex;
+  background-color: #C4938F;
+  min-height: 10%;
+  flex-wrap: wrap;
+  margin: 1%;
+  width: 66.4%;
+  text-align: center;
+}
+
+#cat-list-title {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 5px;
+  font-size: 25px;
+  width: 100%;
+  background-color: burlywood;
+  border: 5px burlywood outset;
+}
+#cat-list-title span{
+  width: 50%;
+}
+#cat-list {
+  width: 100%;
+}
+.cat-box {
+  margin: 5px;
+  background-color: beige;
+  border: 5px beige outset;
+  padding: 5px;
+  min-width: 300px;
+  z-index: 2;
+}
+.cat-box-peril {
+  border: 5px red outset;
+  background-color: red;
+}
+.cat-box p {
+  margin: 8px;
+}
+.dead-cat-box {
+  background-color: black;
+  border: 5px black outset;
+  color: white;
+}
+.dead-cat-box .cat-img {
+  filter: grayscale(100%);
+}
+.cat-img {
+  image-rendering: pixelated;
+  float: left;
+  height: 100px;
+  width: 100px;
+  border: ridge 8px brown;
+  margin: 3px;
+}
+.cat-button-container {
+  width: 100%;
+  margin: 3px;
+  display: flex;
+}
+.cat-button {
+  width: 50%;
+}
+.cat-button-disabled {
+  cursor: not-allowed;
+}
+
+#your-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  position: fixed;
+  width: 29.5%;
+  right: 20px;
+  top: 103px;
+}
+
+#house {
+  padding: 6px;
+  min-width: 100%;
+  border: dotted 4px black;
+  background-color: papayawhip;
+}
+#house-visuals h4{
+  margin: 0.5rem;
+}
+.house-img {
+  image-rendering: pixelated;
+  float: left;
+  width: 140px;
+  height: 140px;
+  margin: 1%;
+  border: ridge 8px brown;
+}
+#your-stats {
+  padding: 6px;
+  border: dotted 4px black;
+  min-width: 100%;
+  background-color: papayawhip;
+}
+.face-img {
+  image-rendering: pixelated;
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+#progress-box {
+  border: 0.25rem solid black;
+  background-color: lightgrey;
+  height: 4rem;
+  width: 21rem;
+  float: left;
+}
+#progress-bar {
+  height: 66%;
+  width: 0%;
+  background-color: darkred;
+}
+
+#achievement-container {
+  display: flex;
+  height: 6rem;
+  background-color: papayawhip;
+  border: dotted 4px black;
+  width: 100%;
+}
+.achievement-box {
+  margin: 0.25rem;
+  width: 45%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+}
+.achievement-box p {
+  margin: 0.10rem;
+}
+.achievement-img {
+  height: 5rem;
+  width: 5rem;
+  text-align: center;
+  image-rendering: pixelated;
+  float: left;
+  border: gold 0.25rem outset;
+}
+.achievement-img-incomplete {
+  filter: grayscale(100%);
+  border: grey 0.25rem outset;
+}
+
+#site-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background-color: #A87EA3;
+  left: 0;
+  z-index: 4;
+}
+#next-day {
+  margin: 1%;
+  font-size: 35px;
+  min-width: 20%;
+  width: 40%;
+}
+
+.next-day-play {
+  background-color: rebeccapurple;
+  box-shadow: 0 9px #27133A;
+}
+.next-day-play:active {
+  background-color: #442266;
+  box-shadow: 0 5px #221133;
+}
+
+.next-day-work {
+  background-color: #C90000;
+  box-shadow: 0 9px #440000;
+}
+.next-day-work:active {
+  background-color: #930000;
+  box-shadow: 0 5px #210000;
+}
+
+#player-info {
+  margin: 1%;
+  text-align: center;
+  background-color: #896664;
+  padding: 5px;
+  border-radius: 8px;
+  border: inset 5px #684D4C;
+  min-width: 17%;
+}
+#job-info {
+  margin:1%;
+  background-color: #896664;
+  padding: 5px;
+  border-radius: 8px;
+  border: inset 5px #684D4C;
+  width: 23%;
+}
+#job-exp-bar-container {
+  height: 1rem;
+  background-color: lightgrey;
+  border: 0.1rem solid black;
+}
+#job-exp-bar {
+  height: 100%;
+  background-color: red;
+  width: 0%;
+}
+
+#job-search {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  background-color: mistyrose;
+  bottom: 20%;
+  border: black dashed .25rem;
+  left: 52%;
+  width: 30%;
+  padding: .5%;
+  color: black;
+  transition-duration: 2s;
+}
+#job-search button {
+  margin-bottom: 0.31rem;
+}
+#job-list {
+  width: 49%;
+  border-right: black dashed .25rem;
+  float: left;
+}
+#resume {
+  width: 48%;
+  height: 100%;
+  float: right;
+}
+#bumper-bottom {
+  padding: 85px;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  text-align: center;
+  color: white;
+  display: none;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+  z-index: 5; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: not-allowed; /* Add a pointer on hover */
+}

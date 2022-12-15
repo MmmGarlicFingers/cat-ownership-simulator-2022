@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cat Ownership Simulator 2022</title>
+	<link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg"/>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="site-header">
+		<section id="money-counter" class="counter"></section>
+		<section id="food-counter" class="counter"></section>
+		<section id="cat-counter" class="counter"></section>
+		<section id="peril-counter" class="counter"></section>
+		<h1 id="title">Cat Ownership Simulator 2022</h1>
+	</header>
+	<section id="cat-shop"></section>
+	<section id="bumper-top"></section>
+	<main id="cat-list-container" class="container">
+		<section id="cat-list-title">
+			<button id="new-cat">Buy new cat - 25$</button>
+			<button id="buy-food">Buy food - 1$ per unit</button>
+			<span>Meow-O-Matic 5000</span>
+		</section>
+		<section id="cat-list" class="container"></section>
+	</main>
+	<section id="your-actions">
+		<aside id="house">
+			<section id="house-visuals"></section>
+			<section id="house-actions"></section>
+			<section id="house-upgrade"></section>
+		</aside>
+		<aside id="your-stats">
+			<img src="img/face/happy.png" alt="Happy Face" title="A smile a day keeps the doctor away!" class="face-img">
+	  		<strong>You feel fine, you have 0/1 needed cats</strong>
+	  		<div id="progress-box">
+	  			Time until cat need increase:
+	  			<div id="progress-bar"></div>
+	  		</div>
+		</aside>
+		<aside id="achievement-container"></aside>
+	</section>
+	<section id="job-search">
+		<section id="job-list"></section>
+		<section id="resume">
+			<h2>Resumé:</h2>
+			<ul id="experience">
+				<li>Cleaned mum's car once</li>
+			</ul>
+		</section>
+	</section>
+	<footer id="site-footer">
+		<button id="next-day" class="next-day-play">Next Day</button>
+		<span id="job-info"></span>
+		<button id="new-job">Find a job</button>
+		<span id="player-info"><h2>Tuesday, Day 1</h2></span>
+	</footer>
+	<section id="bumper-bottom"></section>
+	<div id="overlay"><h1></h1></div> 
+	<script src="script.js"></script>
+</body>
+</html>
