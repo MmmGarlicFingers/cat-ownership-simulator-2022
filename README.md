@@ -1,6 +1,9 @@
 # cat-ownership-simulator-2022
 Simulates the ownership of cats in the year of our lord 2022.
 
+CLICK HERE TO PLAY : https://mmmgarlicfingers.github.io/cat-ownership-simulator-2022/
+(Don't try and use anything other than a 1080p computer/laptop lol I REFUSE to learn responsive web design)
+
 HOW TO PLAY
 
 You are a cat addict. If you don't have enough cats for 4 days straight, YOU WILL DIE. Every 50 days you will need more cats. 
